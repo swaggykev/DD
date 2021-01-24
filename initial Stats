@@ -1,0 +1,11 @@
+import random
+
+def stats():
+  strength = str(random.randint(1,10))
+  dexterity = str(random.randint(1,10))
+  constitution = str(random.randint (1,10))
+  intelligence = str(random.randint(1,10))
+  wisdom = str(random.randint(1,10))
+  charisma = str(random.randint(1,10))
+  phrase = 'Str:' + strength + '\n' + 'Dex:' + dexterity + '\n'+ 'Con:' + constitution + '\n'+ 'Int:' + intelligence + '\n'+ 'Wis:' + wisdom + '\n'+ 'Char:' + charisma
+  return phrase
